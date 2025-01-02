@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Alert System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Alert.io</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Support.html">support</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <h1 class="head">Security Alert</h1>
+    <div class="alert-message" id="alertMessage">Which Security Threat are You facing? <br> Click button to trigger an alert. </div>
+    <div class="button-container">
+        <button class="alert-button" onclick="triggerAlert('fire')">Fire</button>
+        <button class="alert-button" onclick="triggerAlert('armedRobbery')">Armed Robbery</button>
+        <button class="alert-button" onclick="triggerAlert('earthquake')">Earthquake</button>
+
+        <h1 id="popo">Call the Police for Help</h1>
+    </div>
+    <div><h1 id="caution">NB: (Exercises Caution not to be Noticed in Case of Amr Rubbery)</h1></div>
+
+    <audio id="fireSound" src="/Sounds/fireA.mp3"></audio>
+    <audio id="robberySound" src="/Sounds/armRub.mp3"></audio>
+    <audio id="earthquakeSound" src="/Sounds/EQ.mp3"></audio>
+    <hr>
+
+    <footer>
+        &copy; <span id="year"></span> Pathfinderlabs. All rights reserved.
+    </footer>
+    
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+   <script src="index.js"></script> 
+
+   
+</body>
+</html>

@@ -1,0 +1,80 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 0px;
+}
+h1 {
+    color:red;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.alert-message {
+    font-size: 18px;
+    color: black;
+    margin: 20px 0;
+    min-height: 40px;
+    font-weight: bolder;
+    padding: 30px;
+    text-align: center;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.alert-button {
+    background-color:brown;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.alert-button:hover {
+    background-color: red;
+}
+
+.head{
+    color: red;
+}
+footer{
+    padding: ;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    background-color:beige;
+    color:red;
+    text-align: center;
+    align-items: ;
+}
+.navbar-brand{
+    text-align: center;
+}
+p{
+    line-height: 2.5;
+    padding-top: 20%;
+}
+span{
+    text-decoration: solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: coral;
+
+}
+.pol{
+    padding: 3%;
+}
+#popo{
+    background-color: aqua;
+    border-radius: 10%;
+}
+#caution{
+    font-style: italic;
+    text-decoration: solid;
+    font-family: cursive;
+}
